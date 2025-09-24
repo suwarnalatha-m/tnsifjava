@@ -3,7 +3,7 @@ package basics.java;
 public class NestedIf {
 
 	public static void main(String[] args) {
-		int a=10, b=20, c=5;
+		int a=10, b=20, c=6;
 		System.out.println("The largest number is");
 		if (a > b) {
 			if (a > c){
