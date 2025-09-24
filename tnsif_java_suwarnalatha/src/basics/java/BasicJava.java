@@ -3,7 +3,7 @@ package basics.java;
 public class BasicJava {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int beg=10;
 		int end=20;
 
