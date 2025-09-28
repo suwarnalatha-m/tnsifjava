@@ -1,19 +1,18 @@
 package basics.java;
 
+import java.util.Scanner;
+
 public class BasicJava {
 
 	public static void main(String[] args) {
 		
-		int beg=10;
-		int end=20;
-
-		for (int i = beg; i <= end; i++) {
-			for (int j = 1; j <= 10; j++) {
-				System.out.println(i + "*" + j + "= " + i * j);
-			}
-			System.out.println();
-
-		}
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the numbers:");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = a+b;
+		System.out.println(c);
+		
 
 	}
 
