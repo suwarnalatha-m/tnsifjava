@@ -7,21 +7,24 @@ public class Customer {
 	private int getId() {
 		return id;
 	}
-	public void setId(int id) {
-		this.id = id;
-	}
+	
 	public String getCname() {
 		return cname;
 	}
-	public  void setCname(String cname) {
+	public void setCname(String cname) {
 		this.cname = cname;
 	}
-	public  String getCity() {
+	public String getCity() {
 		return city;
 	}
-	public  void setCity(String city) {
+	public void setCity(String city) {
 		this.city = city;
 	}
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	
 	@Override
 	public String toString() {
 		return "Customer [id=" + id + ", cname=" + cname + ", city=" + city + ", getId()=" + getId() + ", getCname()="
