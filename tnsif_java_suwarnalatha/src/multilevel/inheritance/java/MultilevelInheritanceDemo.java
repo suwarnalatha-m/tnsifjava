@@ -1,4 +1,4 @@
-package multilevelinher.java;
+package multilevel.inheritance.java;
 import java.util.Date;
 public class MultilevelInheritanceDemo {
 

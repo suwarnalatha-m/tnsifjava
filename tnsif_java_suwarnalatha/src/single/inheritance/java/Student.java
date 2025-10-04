@@ -1,4 +1,4 @@
-package singleinher.java;
+package single.inheritance.java;
 
 public class Student extends Citizen{
 	private int rollNo;
