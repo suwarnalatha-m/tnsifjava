@@ -9,7 +9,7 @@ public class ParameterizedTestDemo {
 
 	
 	@ParameterizedTest
-	@ValueSource(strings= {"racecar","radar","madam","string"})
+	@ValueSource(strings= {"racecar","radar","madam"})
 	void testPalindromes(String word)
 	{
 		assertTrue(word.equals(new StringBuffer(word).reverse().toString()));
